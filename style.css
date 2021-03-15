@@ -1,0 +1,136 @@
+body
+{
+    background-color: rgb(24, 21, 1);
+    color: rgb(226, 208, 147);
+    font-size: 28px;
+}
+header{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1
+{
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+h1:hover
+{
+    color: rgb(221, 193, 99); 
+}
+
+.jr
+{
+    font-size: 76px;
+}
+.jr:hover
+{
+    font-size: 88px;
+}
+
+h2
+{
+    color: rgb(216, 189, 98);
+    font-style: italic;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 15px rgb(172, 140, 36);
+}
+
+.board
+{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    visibility: hidden;
+}
+
+.card
+{
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    margin: 3px;
+    background-image: url(img/kk2.jpg);
+    background-size: 125px;
+    border: 4px solid rgb(126, 120, 43);
+    cursor: pointer;
+    filter: brightness(95%);
+    transition: all .3s ease-in;
+    transition: opacity 1s ease-in-out;
+}
+.card:hover
+{
+    border: 4px solid rgb(218, 205, 32); 
+    filter: brightness(100%);
+}
+.cardA
+{
+    
+    border: 4px solid rgb(218, 205, 32);
+    cursor: default;
+    filter: brightness(100%);
+}
+
+.score
+{
+    margin: 5px; 
+}
+
+#wybor
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+#wybor>h3
+{
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+#wybor>p
+{
+    margin: 80 0px;
+    font-size: 48px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#wybor>p:hover
+{
+    text-shadow: 0px 0px 25px rgb(172, 140, 36);
+    color: rgb(226, 198, 104);
+    cursor: pointer;
+    
+
+}
+
+#peh
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: inherit;
+    border: none;
+    color: rgb(226, 208, 147);
+    cursor: pointer;
+    
+}
+#peh:hover
+{
+    color: rgb(221, 193, 99);
+}
